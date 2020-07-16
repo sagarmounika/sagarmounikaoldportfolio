@@ -1,0 +1,128 @@
+body{
+  margin-top: 105px;
+}
+
+// colors
+$primary: #3292a6;
+$primary-overlay:rgba(50,146,166,0.8);
+
+//NAVBAR
+.navbar {
+  box-shadow: 2px 2px 5px $primary;
+  opacity: 0.9;
+  background-color: #ffffff;
+
+    .nav-item{
+      font-size: 1.4rem;
+     padding-right: 1.4rem;
+    }
+}
+
+// MAIN-HOME SHOWCASE
+#showcase{
+  background: url('../img/mountains.jpg');
+  position: relative;
+  min-height: 600px;
+
+    .overlay{
+      background-color: $primary-overlay;
+      position: absolute;
+      top:0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    }
+}
+
+/*other way of overlaying*/
+/*#showcase{
+ background: linear-gradient($primary-overlay,$primary-overlay) ,url('../img/mountains.jpg');}
+ */
+
+//  ABOUT & ACCORDION
+
+#about{
+  .fa-arrow-alt-circle-down{
+    font-size: 1.5rem;
+    color: $primary;
+  }
+  .card-header:hover{
+    cursor: pointer;
+  }
+}
+.info-header{
+  width:50%;
+  margin:auto;
+  border-bottom: 1px #dddddd solid;
+}
+.fab{
+font-size: 1.5rem;}
+#authors{
+  img{
+    margin-top: -60px;
+  }
+
+}
+ .fa-facebook-f{color:  #3b5998;}
+ .fa-instagram{color:#e4405f;}
+ .fa-twitter{color: #00acee;}
+
+#authors{
+  .card:hover{
+    background: $primary;
+    .fab{color: #ffffff;}
+    h5,h3 {
+      color: white!important;
+  } 
+  }
+}
+ 
+  
+
+
+// MEDIA QUERIES
+
+@media only screen and (max-width:990px){
+  #authors{
+    img{
+      margin-top:-60px;
+     }
+    
+  }
+  .mb-res{
+    margin-bottom:3rem;
+  }
+}
+ 
+
+ @media only screen and  (max-width:768px){
+
+  #showcase{
+    min-height: 500px;
+  h1{font-size: 4rem;}
+  }
+  .mb-res{
+    margin-bottom:1rem;
+  }
+  #authors{
+    img{
+      margin-top:-50px;
+      height: auto;
+      width:150px;
+    }
+  }
+  .info-header{
+    width:70%;
+    
+  }
+
+  #contact{
+    img{display: none;
+
+    }
+  }
+
+ }
+ 
+
+ 
