@@ -1,0 +1,117 @@
+/* TO REMOVE OUTLINE WHEN FOCUSED ON INPUTS */
+
+input[type="text"], textarea,input[type="email"] {
+  outline: none;
+  box-shadow:none !important;
+  border:1px solid rgb(160, 171, 184) !important;}
+
+body{font-family:Arial, Helvetica, sans-serif}
+/* NAVBAR */
+.navbar .nav-link {
+  padding-left: 1rem !important;
+  padding-right: 1rem !important;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+.nav-item.active {
+  border-left: #444444 3px solid;
+}
+
+/* CAROUSEL */
+.carousel-item {
+  height: 70vh;
+}
+.carousel-image1 {
+  background: url("../img/image1.jpg");
+  background-size: cover;
+}
+.carousel-image2 {
+  background: url("../img/image2.jpg");
+  background-size: cover;
+}
+.carousel-image3 {
+  background: url("../img/image2.jpg");
+  background-size: cover;
+}
+
+#homeheading {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("../img/lights.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 200px;
+  background-attachment: fixed;
+}
+
+#header-info img {
+  filter: drop-shadow(2px 5px 5px black);
+}
+#video {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("../img/media.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 200px;
+  background-attachment: fixed;
+  text-align: center;
+  color: white;
+}
+#video a {
+  color: white;
+}
+
+
+/* ABOUT-SECTION */
+.about-image{margin-top:-80px;}
+#about-section p{
+  width: 90%;
+  margin-left:5%; 
+  text-align: justify;}
+
+/* ABOUT HEADER  & SERVICES HEADER*/
+#about-header,#services-header,#blog-header,#contact-header{
+  background-image: url('../img/image1.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 50vh;
+  color: white;
+  background-position: 0 -300px;
+}
+
+#faq .card{border: #444444;}
+#faq .card-header,
+#faq .card-body{background-color: #333333;}
+.card a{
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+}
+#footer{
+background-color: black !important;
+color: white;}
+
+/*  
+@media (min-width: 576px) {
+  .card-columns {
+      column-count: 2;
+  }
+}
+
+@media (min-width: 768px) {
+  .card-columns {
+      column-count: 3;
+  }
+}
+
+@media (min-width: 992px) {
+  .card-columns {
+      column-count: 4;
+  }
+}
+
+@media (min-width: 1200px) {
+  .card-columns {
+      column-count: 5;
+  }
+}
+*/

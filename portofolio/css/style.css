@@ -1,0 +1,39 @@
+.bg-black{
+    background-color: black;
+    color: white;
+}
+.port-items:hover{
+    opacity:0.8;
+    cursor: pointer;
+}
+
+
+
+
+
+@media(max-width: 1400px) {
+    
+    .port-items{
+        width: 25% !important;
+    }
+    img{height: 100% !important;
+    width: 100% !important; }
+}
+
+
+@media(max-width:991px) {
+    .port{
+        display: flex;
+        flex-direction: column;
+    }
+    .port-items h4{display: none !important;
+   
+    }
+    .port-items { text-align: center !important;
+       
+    }
+
+ 
+} 
+
+
